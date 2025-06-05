@@ -10,3 +10,6 @@ pnpm-debug.log*
 
 # Ignore local .env files but not example ones
 .env
+
+# Ignore SQLite database files
+bank.sqlite
