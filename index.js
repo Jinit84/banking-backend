@@ -7,7 +7,7 @@ const { initDB } = require('./db');
 
 const app = express();
 app.use(cors({
-  origin: 'https://frontend-lw8tcooom-jinit84s-projects.vercel.app',
+  origin: 'https://frontend-beta-seven-28.vercel.app',
   credentials: true
 }));
 app.use(bodyParser.json());
