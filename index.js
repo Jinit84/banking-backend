@@ -6,7 +6,10 @@ const bodyParser = require('body-parser');
 const { initDB } = require('./db');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://frontend-lw8tcooom-jinit84s-projects.vercel.app',
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 initDB()
